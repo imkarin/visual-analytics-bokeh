@@ -7,7 +7,7 @@
 
 Welcome to the visual-analytics-bokeh repo!
 
-This project consists of an interactive dashboard built with Python, using packages like pandas, bokeh and more. The data used for this dashboard is the NYC Citywide Annualized Calendar Sales Update by NYC OpenData, and the geospatial data is from the nycehs/NYC_geography repository.
+This project consists of an interactive dashboard built with Python, using packages like pandas, bokeh and more. The data used for this dashboard is the NYC Citywide Annualized Calendar Sales Update by NYC OpenData, and the geospatial data is from **[nycehs](https://github.com/nycehs)**'s NYC_geography repository.
 
 This project is made by Karin Meijvogel and Lea van den Heuvel, for the Minor Data Science at the Amsterdam University of Applied Sciences.
 
