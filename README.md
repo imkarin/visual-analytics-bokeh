@@ -54,7 +54,7 @@ bokeh serve --show visual-analytics-bokeh
 ```
 
 
-A browser window will open, leading to http://localhost:5006/visual-analytics-bokeh. In your console, you'll see that the code is running and preparing the dashboard. After several seconds the dashboard will appear in your browser. Enjoy!
+A browser window will open, leading to http://localhost:5006/visual-analytics-bokeh. In your console, you'll see that the code is running and preparing the dashboard. After several seconds the console will say 'ServerConnection created' and the dashboard will appear in your browser. Enjoy!
 
 <br />
 
