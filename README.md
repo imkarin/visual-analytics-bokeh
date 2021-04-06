@@ -1,5 +1,9 @@
+<br />
+
 <h1 align="center">Visual Analytics: Bokeh</h1>
  <h4 align="center">Interactive dashboard on Property Sales in New York.</h4>
+
+<br />
 
 Welcome to the visual-analytics-bokeh repo!
 
@@ -7,12 +11,14 @@ This project consists of an interactive dashboard built with Python, using packa
 
 This project is made by Karin Meijvogel and Lea van den Heuvel, for the Minor Data Science at the Amsterdam University of Applied Sciences.
 
+<br />
 ## Table of contents 📜
 * [Installation guide](#installation-guide-%EF%B8%8F)
 * [Sources](#sources-)
 
 <img src="https://user-images.githubusercontent.com/57796369/113760605-b5cb3400-9716-11eb-90de-372db032332d.png" width="100%">
 
+<br />
 ## Installation guide 🖱️
 ### Requirements
 To run this project, you'll need to have Python installed, as well as several packages. Also, any code editor is useful, if you want to look into the code and see our data preparation process for yourself. The packages used for this project project are:
