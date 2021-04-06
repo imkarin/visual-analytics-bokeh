@@ -1,13 +1,13 @@
 <br />
 
 <h1 align="center">Visual Analytics: Bokeh</h1>
- <h4 align="center">Interactive dashboard on Property Sales in New York.</h4>
+<h4 align="center">Interactive dashboard on Property Sales in New York.</h4>
 
 <br />
 
 Welcome to the visual-analytics-bokeh repo!
 
-This project consists of an interactive dashboard built with Python, using packages like pandas, bokeh and more. The data used for this dashboard is the [NYC Citywide Annualized Calendar Sales Update](https://data.cityofnewyork.us/City-Government/NYC-Citywide-Annualized-Calendar-Sales-Update/w2pb-icbu) by NYC OpenData, and the geospatial data is from [nycehs/NYC_geography](https://github.com/nycehs/NYC_geography) repository.
+This project consists of an interactive dashboard built with Python, using packages like pandas, bokeh and more. The data used for this dashboard is the NYC Citywide Annualized Calendar Sales Update by NYC OpenData, and the geospatial data is from the nycehs/NYC_geography repository.
 
 This project is made by Karin Meijvogel and Lea van den Heuvel, for the Minor Data Science at the Amsterdam University of Applied Sciences.
 
@@ -40,12 +40,10 @@ If you want to try the dashboard out for yourself, you can clone the repository 
 git clone https://github.com/imkarin/visual-analytics-bokeh.git
 ```
 
-Install the required pip modules if you don't have them in your environment yet:
+Install the required pip modules described above, if you don't have them in your environment yet:
 
 ```
-pip install numpy
-pip install pandas
-...
+pip install -r requirements.txt
 ```
 
 Finally, when you've made sure you're in the project's parent directory, start the bokeh server:
