@@ -1,0 +1,14 @@
+{% extends base %}
+
+{% block title %}Visual Analytics - Eindproject{% endblock %}
+
+{% block postamble %}
+  <link rel='stylesheet' href='va_eindopdracht/static/css/styles.css'/>
+{% endblock %}
+
+{% block contents %}
+  <div class="content">
+    <h1>Property sales in New York City</h1>
+    <div class='datastuff'>{{ super() }}</div>  
+  </div>
+{% endblock %}

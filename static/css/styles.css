@@ -1,0 +1,105 @@
+.content{
+    /* Margin rondom content weghalen (body margins) */
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+
+    /* Styling van contentblok */
+    padding: 20px 90px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f8faff;
+    color: #202020 !important;      
+    font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+    margin: 70px 0;
+}
+
+.content a, .content a:hover, .content a:visited, .content a:active {
+    text-decoration: none;
+    color: #495d6d;
+}
+
+/* Row styling */
+.content .bk.eigentekst.intro h3 {
+    margin-top: 112px;
+}
+
+.content .bk.customrow {
+    background-color: #fbfbfb;
+    box-sizing: content-box;
+    border: 20px solid #fbfbfb;
+    padding: 10px 0;
+    border-radius: 6px;
+    box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.07)
+}
+
+
+/* Tekst */
+.content .bk.eigentekst {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #202020;
+    margin: 16px 0;
+}
+
+.content .bk.eigentekst * {
+    line-height: 1.6em;
+}
+
+/* Checkboxes */
+.content .bk-root -bk-input-group.bk-inline .bk {
+    margin-right: 14px;
+}
+
+
+/* Tab styling: tabs-header > headers-wrapper > headers > tabs */
+.content .bk-root .bk-tabs-header.bk-above {
+    height: 45px;
+    border: 0;
+    margin-bottom: 16px;
+}
+
+.content .bk-root .hoi .bk-tabs-header.bk-above .bk-headers-wrapper{
+    height: 100%;
+    background: transparent;
+    border: 0;
+}
+
+.content .bk-root .bk-tabs-header.bk-above .bk-headers {
+    height: 100%;
+    border: 0;
+    border-bottom: 3px solid #eeeeee;
+}
+
+/* tabs normaal en active */
+.content .bk-root .bk-tabs-header.bk-above .bk-tab {
+    height: 100%;
+    color: #cacaca;
+    background: transparent;
+    border: 0px 0px 0px 0px;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    padding: 18px 30px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.content .bk-root .bk-tabs-header.bk-above .bk-tab.bk-active{
+    border: 0;
+    border-bottom: 3px solid #3988c9;
+    color: #202020;
+    font-weight: 600;
+    background: transparent;
+    transform: translateY(2px);
+}

@@ -1,0 +1,71 @@
+attrs:
+    Title: # fonts:
+        text_font_size: 10pt
+        text_color: "#202020"
+        text_font: 'Roboto'
+
+    Label:
+        text_font: 'Roboto'
+    Axes:
+        axis_label_text_font: 'Roboto'
+        major_label_text_font: 'Roboto'
+        group_text_font: 'Roboto'
+        subgroup_text_font: 'Roboto'
+    Axis:
+        axis_label_text_font: 'Roboto'
+        major_label_text_font: 'Roboto'
+    CategoricalAxis:
+        axis_label_text_font: 'Roboto'
+        major_label_text_font: 'Roboto'
+        subgroup_text_font: 'Roboto'
+    ContinuousAxis:
+        axis_label_text_font: 'Roboto'
+        major_label_text_font: 'Roboto'
+    DatetimeAxis:
+        axis_label_text_font: 'Roboto'
+        major_label_text_font: 'Roboto'
+    LogAxis:
+        axis_label_text_font: 'Roboto'
+        major_label_text_font: 'Roboto'
+    MercatorAxis:
+        axis_label_text_font: 'Roboto'
+        major_label_text_font: 'Roboto'
+    Legend:
+        label_text_font: 'Roboto'
+        title_text_font: 'Roboto'
+    
+    Figure: # backgrounds, spacing enz:
+        background_fill_color: 'rgba(251, 251, 251, 0)'
+        border_fill_color: 'rgba(251, 251, 251, 0)'
+        outline_line_color: '#dedede'
+        toolbar_location: 'above'
+        sizing_mode: 'scale_width'
+        width_policy: 'max'
+        margin: [24, 12, 0, 12]
+
+    Group: # checkboxes horizontaal
+        orientation: 'horizontal'
+        inline: True
+
+    Tabs:
+        sizing_mode: 'scale_width'
+        width_policy: 'max'
+        margin: [20, 0, 0, 0]
+    Div:
+        width_policy: 'max'
+        sizing_mode: 'scale_width'
+    Row:
+        sizing_mode: 'scale_width'
+        width_policy: 'max'
+        margin: [0, 0, 160, 0]
+        css_classes: ['customrow']  
+    Column:
+        sizing_mode: 'scale_width'
+        width_policy: 'max'
+        max_width: 1290
+        align: ['center', 'start']
+    Axis:
+        axis_line_color: !!null
+    Grid:
+        grid_line_dash: [6, 4]
+        grid_line_alpha: .3
