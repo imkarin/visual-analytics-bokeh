@@ -43,7 +43,9 @@ git clone https://github.com/imkarin/visual-analytics-bokeh.git
 Install the required pip modules described above, if you don't have them in your environment yet:
 
 ```
-pip install -r requirements.txt
+pip install numpy
+pip install pandas
+...
 ```
 
 Finally, when you've made sure you're in the project's parent directory, start the bokeh server:
