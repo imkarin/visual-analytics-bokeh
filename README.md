@@ -64,4 +64,3 @@ NYC Citywide Annualized Calendar Sales Update | NYC Open Data. (2020, 3 maart). 
 
 ### Geojson data
 NYC_geography. (2020). [Software]. https://github.com/nycehs/NYC_geography
-
